@@ -10,4 +10,4 @@ RUN apt-get update && \
 
 RUN ant clean jar
 
-CMD ["sh", "-c", "java -jar dist/*.jar"]
+CMD ["sh", "-c", "java -jar dist/bank_management_system.jar"]
